@@ -27,11 +27,11 @@ Now that we've got a completed data set, we can use use melt and dcast functions
 
 ### Columns
 
-* Subject
+* Subject						-	Numeric identifier of subject
 
 	* 1 - 30
 
-* Activity
+* Activity						-	Character factor describing activity of subject
 
 	* WALKING
 	* WALKING_UPSTAIRS
