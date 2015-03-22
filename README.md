@@ -16,11 +16,11 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ### Instructions
 
-1. Download the GetAndClean.R script
+1. Download the run_analysis.R script
 2. Download the data set described above
-3. Place the subfolder "./UCI HAR Dataset/" of the data set into the same folder as the GetAndClean.R script
+3. Place the subfolder "./UCI HAR Dataset/" of the data set into the same folder as the run_analysis.R script
 4. Load the GetAndClean.R script
-5. Execute command "tidyData <- GetAndClean()"
+5. Execute command "tidyData <- run_analysis()"
 
 ### Analysis
 
