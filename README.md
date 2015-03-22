@@ -40,11 +40,11 @@ The result is a set of merged data frames:
 	./UCI HAR Dataset/test/subject_test.txt
  
 After adding the features to the column names by loading
-	"./UCI HAR Dataset/features.txt"
+	./UCI HAR Dataset/features.txt
 we extract only the columns containing "mean()" or "std()" in their names.
 
 We continue by loading the activity labels from
-	"./UCI HAR Dataset/activity_labels.txt"
+	./UCI HAR Dataset/activity_labels.txt
 and mapping them to our observations.
 
 Then, we add the subjects, acquired from the merged datasets before 
