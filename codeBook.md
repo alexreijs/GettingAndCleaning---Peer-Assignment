@@ -29,7 +29,7 @@ Now that we've got a completed data set, we can use use melt and dcast functions
 
 * Subject
 
-	* 1 * 30
+	* 1 - 30
 
 * Activity
 
