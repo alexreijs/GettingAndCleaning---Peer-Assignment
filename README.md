@@ -40,15 +40,21 @@ The result is a set of merged data frames:
 	./UCI HAR Dataset/test/subject_test.txt
  
 After adding the features to the column names by loading
+
 	./UCI HAR Dataset/features.txt
+	
 we extract only the columns containing "mean()" or "std()" in their names.
 
 We continue by loading the activity labels from
+
 	./UCI HAR Dataset/activity_labels.txt
+	
 and mapping them to our observations.
 
 Then, we add the subjects, acquired from the merged datasets before 
+
 	mergedSubject
+	
 to our observations.
 
 Now that we've got a completed data set, we can use use melt and dcast functions from the reshape2 package, to calculate the mean for each variable while grouping by the Subject and Activity variables.
